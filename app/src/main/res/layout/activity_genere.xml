@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_genere"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.deepak.musicapp.GenereActivity">
+    <LinearLayout
+        android:id="@+id/LinearLayout_1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/album"
+            android:onClick="openAlbum"/>
+
+        <Button
+            android:id="@+id/Artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/artist"
+            android:onClick="openArtist"/>
+
+        <Button
+            android:id="@+id/Genere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/genre"
+            android:onClick="openGenre"/>
+
+        <Button
+            android:id="@+id/Playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/myplaylist"
+            android:onClick="openPlaylist"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/song"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genre_details"
+        android:textSize="25sp"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

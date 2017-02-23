@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Music app</string>
+    <string name="AlbumActivity">Album</string>
+    <string name="ArtistActivity">Artist</string>
+    <string name="MyplaylistActivity">My Playlist</string>
+    <string name="GenereActivity">Genera</string>
+
+    <string name="artist">Artists</string>
+    <string name="album">Albums</string>
+    <string name="genre">Genre</string>
+    <string name="myplaylist">Playlist</string>
+
+    <string name="artist_details">This Activity lists your music sorted by Artists</string>
+    <string name="album_details">This Activity lists your music sorted by Albums</string>
+    <string name="genre_details">This Activity lists your music sorted by Genre</string>
+    <string name="myplaylist_details">This Activity lists your playlist</string>
+    <string name="main_details">This Activity lists other acctivities that you can select</string>
+
+    <string name="song">Ar Rahaman Yeh Jo Des </string>
+    <string name="nowplaying">Now Playing </string>
+
+
+</resources>
